@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechPath Game Creator</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero button{
+    padding:12px 25px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>TechPath Game Creator</h1>
+    <p>Create Games for Free</p>
+</header>
+
+<section class="hero">
+    <h1>Build Your Own Game</h1>
+    <p>Create simple games without coding.</p>
+    <button onclick="joinNow()">Join Free</button>
+</section>
+
+<section class="features">
+    <div class="card">
+        <h2>Easy Editor</h2>
+        <p>Create games using simple tools.</p>
+    </div>
+
+    <div class="card">
+        <h2>Free Forever</h2>
+        <p>No cost to start building games.</p>
+    </div>
+
+    <div class="card">
+        <h2>Share Games</h2>
+        <p>Publish and share with friends.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 TechPath Game Creator</p>
+</footer>
+
+<script>
+function joinNow(){
+    alert("Welcome to TechPath Game Creator!");
+}
+</script>
+
+</body>
+</html>
